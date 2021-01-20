@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "author": "Hristo Hristov <hristo.hristov@accedia.com>",
+  "homepage": "https://github.com/Xpload/webpack-react-remote-components#readme",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xpload/webpack-react-remote-components.git"
+  },
+  "scripts": {
+    "start": "nodemon src/main.js",
+    "debug": "nodemon --inspect"
+  },
+  "bugs": {
+    "url": "https://github.com/Xpload/webpack-react-remote-components/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "type": "module"
+}

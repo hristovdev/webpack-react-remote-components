@@ -1,0 +1,16 @@
+{
+  "name": "webpack-react-remote-components",
+  "private": true,
+  "workspaces": [
+    "packages/**/*"
+  ],
+  "version": "0.0.1",
+  "description": "A demo project for Dev.bg's presentation on the topic of remote components",
+  "main": "index.js",
+  "repository": "https://github.com/Xpload/webpack-react-remote-components.git",
+  "author": "Hristo Hristov <hristo.v.hristov@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}
